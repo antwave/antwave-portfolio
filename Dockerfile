@@ -6,4 +6,4 @@ COPY . .
 RUN npm install
 RUN npm run build
 
-CMD ["npx", "serve", "-s", "start"]
+CMD ["npx", "serve", "-s", "build", "-p", "3000"]
