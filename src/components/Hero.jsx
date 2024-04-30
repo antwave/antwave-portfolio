@@ -1,16 +1,21 @@
 import React from "react";
-import heroimage from "../assets/profilepic7.png";
+import heroimage from "../assets/antwave.JPG";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black">
-      <div className="col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]">
-        <img src={heroimage} alt="antwave" />{" "}
+      <div className="aspect-square object-cover col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px] ">
+        <img
+          className="rounded-full aspect-square object-cover"
+          src={heroimage}
+          alt="antwave"
+          height={400}
+          width={400}
+        />
       </div>
       <div className="col-span-2 px-5 my-auto">
-        <h1 className="text-white text-4xl sm:text-5xl lgtext:8xl font-extrabold">
-          <span className="primary-color">Soy</span> <br />
+        <h1 className="text-white text-4xl sm:text-5xl lgtext:9xl font-bold">
           <TypeAnimation
             sequence={[
               "Desarrollador",
@@ -20,9 +25,9 @@ const Hero = () => {
               "Business Analyst",
               1000,
             ]}
-            wrapper="span"
             speed={30}
             repeat={Infinity}
+            className="primary-color font-pixel"
           />
         </h1>
         <p className="text-white sm:text-lg my-6 lg:text-xl">
