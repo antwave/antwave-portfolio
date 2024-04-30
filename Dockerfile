@@ -1,9 +1,10 @@
 FROM node:22-alpine3.18
-WORKDIR /portfolio_antwave/
+RUN mkdir /app/
+WORKDIR /app/
 
-COPY public/ /portfolio_antwave/public
-COPY src/ /portfolio_antwave/src
-COPY package.json /portfolio_antwave/
+COPY ./public/ /app/public
+COPY ./src/ /app/src
+COPY ./package.json /app/
 
 RUN npm install
 RUN npm run build
