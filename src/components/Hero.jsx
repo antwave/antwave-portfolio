@@ -1,6 +1,7 @@
 import React from "react";
 import heroimage from "../assets/antwave.JPG";
 import { TypeAnimation } from "react-type-animation";
+import CV from "../assets/Antonio_Carrizosa_CV.pdf";
 
 const Hero = () => {
   return (
@@ -30,12 +31,17 @@ const Hero = () => {
             className="primary-color font-pixel"
           />
         </h1>
-        <p className="text-white sm:text-lg my-6 lg:text-xl">
-          Mi nombre es Antonio Carrizosa y me gusta mucho aprender cosas
+        <p className="text-white sm:text-lg my-6 lg:text-xl lg:whitespace-nowrap">
+          Apasionado por la{" "}
+          <span className="text-cyan-500 font-bold">tecnología</span>, los{" "}
+          <span className="text-cyan-500 font-bold">desafíos</span>, el{" "}
+          <span className="text-cyan-500 font-bold">aprendizaje</span> y el{" "}
+          <span className="text-cyan-500 font-bold">emprendimiento</span>.
         </p>
         <div className="my-8">
           <a
-            href="/"
+            href={CV}
+            download="Antonio_Carrizosa_CV"
             className="px-6 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-blue-500 to-pink-800 text-white"
           >
             Descargar CV
