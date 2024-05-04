@@ -4,8 +4,8 @@ const Experience = () => {
   return (
     <div className="text-white max-w-[1200px] mx-auto" id="experience">
       <div className="mt-4 md:mt-0 text-left ">
-        <div className="my-auto mx-6">
-          <h2 className="text-4xl font-bold mb-4 primary-color">
+        <div className="my-auto md:mx-6">
+          <h2 className="text-4xl font-bold mx-6 md:mx-0 mb-4 primary-color">
             Experiencia Laboral
           </h2>
           <div className="mx-10">
@@ -17,7 +17,8 @@ const Experience = () => {
                 <span className="text-xl font-bold text-pink-500">
                   Lana.xyz
                 </span>{" "}
-                - <span className="text-yellow-400">Ingeniero de Datos</span>
+                - <br className="md:hidden" />
+                <span className="text-yellow-400">Ingeniero de Datos</span>
               </h6>
 
               <small>Diciembre 2021 - Agosto 2022</small>
@@ -38,7 +39,7 @@ const Experience = () => {
                 <span className="text-xl font-bold text-pink-500">
                   Accenture
                 </span>{" "}
-                -{" "}
+                - <br className="md:hidden" />
                 <span className="text-yellow-400">
                   Intern Consulting Analyst
                 </span>
@@ -65,7 +66,8 @@ const Experience = () => {
                 <span className="text-xl font-bold text-pink-500">
                   Nintendo
                 </span>{" "}
-                - <span className="text-yellow-400">PR Executive</span>
+                - <br className="md:hidden" />
+                <span className="text-yellow-400">PR Executive</span>
               </h6>
 
               <small>Junio 2021 - Octubre 2021</small>
@@ -81,7 +83,7 @@ const Experience = () => {
                 <span className="text-xl font-bold text-pink-500">
                   Trabajador Autónomo
                 </span>{" "}
-                -{" "}
+                - <br className="md:hidden" />
                 <span className="text-yellow-400">
                   Análisis Financiero y Gestión de Negocio
                 </span>

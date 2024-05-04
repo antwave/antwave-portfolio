@@ -11,15 +11,15 @@ const Skills = () => {
       className="border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px]
     mx-auto grid grid-cols-2 md:grid-cols-6 place-items-center md:flex md:justify-between md:items-center"
     >
-      <h2 className="text-gray-400 text-xl md:text-4xl font-bold mx-4 mb-5 text-center">
+      <h2 className="text-gray-400 text-4xl font-bold mx-4 mb-5 text-center">
         <span className="text-xs">(some)</span> <br /> Tech <br /> Skills
       </h2>
 
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[100px]">
         <img src={python} alt="python" className="h-[100px]" />
         <p className="mt-2">PYTHON</p>
       </div>
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100-px] md:w-[100px]">
         <img src={django} alt="django" className="h-[100px]" />
         <p className="mt-2">DJANGO</p>
       </div>
@@ -27,11 +27,11 @@ const Skills = () => {
         <img src={pandas} alt="pandas" className="h-[100px] w-[180px]" />
         <p className="mt-2">PANDAS</p>
       </div>
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[120px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[120px]">
         <img src={docker} alt="docker" className="h-[100px]" />
         <p className="mt-2">DOCKER</p>
       </div>
-      <div className="flex flex-col items-center m-4 sm:my-0 w-[40px] md:w-[100px]">
+      <div className="flex flex-col items-center m-4 sm:my-0 w-[100px] md:w-[100px]">
         <img src={dsa} alt="dsa" />
         <p className="mt-2">DSA</p>
       </div>
