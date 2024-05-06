@@ -26,7 +26,7 @@ const About = () => {
               <br></br>
               <br></br>
               Me apasionan los datos y creo al 100% que soy capaz de aprender
-              cualquier cosa
+              cualquier cosa :)
             </p>
           </div>
         </div>
