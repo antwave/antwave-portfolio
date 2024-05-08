@@ -28,10 +28,13 @@ const Experience = () => {
                 <span className="text-pink-500">ETLs</span> para migrar
                 periódicamente datos de{" "}
                 <span className="text-pink-500">BigQuery</span> a{" "}
-                <span className="text-pink-500">PostgreSQL</span> a través de
-                Airflow, hasta realizar queries complejas para analizar el
-                riesgo crediticio de los usuarios o realizar análisis periódico
-                del negocio.
+                <span className="text-pink-500">PostgreSQL</span> a través de{" "}
+                <span className="text-pink-500">Apache Airflow</span>, hasta
+                realizar queries complejas para analizar el riesgo crediticio de
+                los usuarios o realizar análisis periódico del negocio.
+                Procesamiento de los datos tanto en SQL nativo como a través de{" "}
+                <span className="text-pink-500">Pandas</span> y{" "}
+                <span className="text-pink-500">Apache Spark</span> en Python.
               </p>
             </div>
             <div className="mx-5">
